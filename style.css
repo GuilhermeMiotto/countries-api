@@ -1,0 +1,95 @@
+body {
+  transition: background-color 0.5s;
+}
+
+.row {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.row img {
+  cursor: pointer;
+  aspect-ratio: 16/9;
+}
+
+.card {
+  gap: 5px;
+  margin: 0px;
+  border: solid rgb(144, 144, 144) 1px;
+}
+
+.navbar {
+  transition: background-color 0.5s;
+}
+
+.navbar-light {
+  background-color: #f8f9fa;
+}
+
+.navbar-dark {
+  background-color: #343a40;
+}
+
+body.dark-mode {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.card-light {
+  background-color: #fff;
+  color: #000;
+}
+
+.card-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.dark-mode .modal-content {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+.dark-mode .modal-header {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #444;
+}
+
+.dark-mode .modal-title {
+  color: #fff;
+}
+
+.dark-mode .modal-body {
+  background-color: #2d2d2d;
+}
+
+.dark-mode .modal-footer {
+  background-color: #1a1a1a;
+  border-top: 1px solid #444;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #555;
+  color: #fff;
+}
+
+.dark-mode .btn-secondary:hover {
+  background-color: #777;
+  color: #fff;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-check i {
+  height: auto;
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+.fa-moon {
+  margin-left: 10px;
+}
